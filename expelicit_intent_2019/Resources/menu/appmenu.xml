@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--For all properties see: https://aka.ms/android-menu-resource-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <item android:id="@+id/action_search"
+         android:showAsAction="always"
+        android:text="Search"
+         android:actionViewClass="android.widget.SearchView"/>
+	<item android:id="@+id/mnulocation1"
+        android:title="Location by longitude and latitude"/>
+	<item android:id="@+id/mnulocbyadress"
+	android:title="Location by adress"/>
+	<item android:id="@+id/mnugensms"
+	android:title="Send general text"/>
+	<item android:id="@+id/mnuclock"
+	android:title="Alarm clock"/>
+	<item android:id="@+id/mnuclander"
+	android:title="Add an event to your calender"/>
+	<item android:id="@+id/mnucntperson"
+	android:title="Add contact person"/>
+
+
+</menu>
+
+
+
